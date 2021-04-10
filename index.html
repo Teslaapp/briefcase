@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My briefcase</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="max-width">
+        <div class="logo">
+          <a href="#">brief<span>case.</span></a>
+        </div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <section class="home" id="home">
+      <div class="max-width">
+        <div class="home-content">
+          <div class="text-1">Hello, My Name is</div>
+          <div class="text-2">Eliezer Regalado</div>
+          <div class="text-3">I'm a <span>Software developer</span></div>
+          <a href="#contact">Hire Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!----->
+
+    <section class="about" id="about">
+      <div class="max-width">
+        <h2 class="title">About Me</h2>
+        <div class="about-content">
+          <div class="column left">
+            <img src="pictures/myavatar.jpeg" alt="" />
+          </div>
+          <div class="column right">
+            <div class="text">
+              I'm a <span>Software developer(Back End)</span>
+            </div>
+            <p>
+              I am a young man who likes technology, I like to create software
+              that helps improve the quality of life of others, I I like to be
+              punctual in the schedules, I am very competitive, I like I work
+              hard and every day I learn something new, in what it contributes
+              to my knowledge as a software developer, I have the ability to
+              adapt quickly to changes in the technological area, I I like to
+              work in a team, and help them whenever I allow it, and above all I
+              am responsible with my work that something. Inside of possibility
+              that exists, if given the opportunity, I would to be able to
+              develop myself as well as to develop the company and walk together
+              towards a promising future.
+            </p>
+
+            <input type="checkbox" id="btn-modal" />
+            <br />
+            <label for="btn-modal" class="lbl-modal">Download CV</label>
+            <div class="modal">
+              <div class="contenedor">
+                <header>CV PDF</header>
+                <label for="btn-modal">Close</label>
+
+                <iframe src="myvitae.pdf"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---services -->
+
+    <section class="services" id="services">
+      <div class="max-width">
+        <h2 class="title">Service</h2>
+        <div class="services-content">
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-code"></i>
+              <div class="text">Web development</div>
+              <p>
+                Click on the button below, you will be able to see the projects
+                Web, which is developed.
+              </p>
+
+              <a class="color" href="https://www.youtube.com/">Proyects</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-code"></i>
+              <div class="text">Development App</div>
+              <p>
+                Click on the button below, you will be able to see the projects
+                of Apps, which is developed.
+              </p>
+
+              <a class="color" href="https://www.youtube.com/">Proyects</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="max-width">
+        <h2 class="title">My Skills</h2>
+        <div class="skills-content">
+          <div class="column left">
+            <div class="text">Mi Skills & Experience.</div>
+            <p>
+              On the side of banckend I dominate the NODEJS technology which is
+              JAVASCRIPT but on the server side, in which I have basic handling
+              to do several things such as: CRUD, LOGIN CONNECTIONS to DB .....
+              To read more the CV and Read Curriculum Letter.
+            </p>
+            <br />
+            <a style="color: crimson" href="#about"><h4>Go to the CV</h4></a>
+          </div>
+          <div class="column right">
+            <div class="bars">
+              <div class="info">
+                <span>ReactJs</span>
+                <spam>80%</spam>
+              </div>
+            </div>
+
+            <div class="bars">
+              <div class="info">
+                <span>NodeJs</span>
+                <spam>90%</spam>
+              </div>
+            </div>
+
+            <div class="bars">
+              <div class="info">
+                <span>React Native</span>
+                <spam>90%</spam>
+              </div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>C#(Asp .Net Core, Mvc)</span>
+                <spam>80%</spam>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="max-width">
+        <h2 class="title">Contact</h2>
+        <div class="contact-content">
+          <div class="column left">
+            <div class="text"></div>
+            <p>To contact me, you can communicate with me in this way.</p>
+            <br />
+            <div class="icons">
+              <div class="row">
+                <i class="fas fa-user"></i>
+                <div class="info">
+                  <div class="head">Name</div>
+                  <div class="sub-title">Eliezer Regalado</div>
+                </div>
+              </div>
+              <br />
+
+              <div class="row">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="info">
+                  <div class="head">Dirrection</div>
+                  <div class="sub-title">
+                    Respaldo Puerto Rico#13, San Pedro de Macoris, Dominican
+                    Republic
+                  </div>
+                </div>
+              </div>
+              <br />
+
+              <div class="row">
+                <i class="fas fa-envelope"></i>
+                <div class="info">
+                  <div class="head">Email</div>
+                  <div class="sub-title">regaladodiazeliezer150@gmail.com</div>
+                </div>
+              </div>
+              <br />
+
+              <div class="row">
+                <i class="fas fa-phone-alt"></i>
+                <div class="info">
+                  <div class="head">Phone</div>
+                  <div class="sub-title">829-642-9311 or 829-771-4156</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <span
+        >Created By <a href="#">Eliezer.Regalado</a>|
+        <span class="far fa-copyright"></span> 2021 All rights reserved.
+      </span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
